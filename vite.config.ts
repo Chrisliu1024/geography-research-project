@@ -65,7 +65,7 @@ export default ({ command }: ConfigEnv): UserConfig => {
       },
     },
     build: {
-      outDir: 'dist/geography-research/',
+      outDir: 'docs/',
     },
   };
 };
