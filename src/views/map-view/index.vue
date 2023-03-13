@@ -345,7 +345,7 @@
           f.setStyle(
             new Style({
               image: new RegularShape({
-                radius: 20,
+                radius: 40,
                 points: 4,
                 stroke: new Stroke({ color: 'red', width: 2 }),
               }),
