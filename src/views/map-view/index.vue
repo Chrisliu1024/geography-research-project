@@ -1,6 +1,6 @@
 <template>
   <div id="olMap">
-    <div ref="main-map" class="mapContainer" id="main-map-id"></div>
+    <div ref="main-map" class="mapContainer" id="main-map"></div>
   </div>
 </template>
 
@@ -47,7 +47,7 @@
     },
     mounted() {
       map = new Map({
-        target: 'main-map-id',
+        target: 'main-map',
         view: new View({
           center: [0, 0],
           zoom: 2,
