@@ -37,8 +37,8 @@
   let pointStyleToFaculty;
   let iconStyle;
   let select;
-  const logoUrl = '/geography-research/logo.png';
-  const jsonUrl = '/geography-research/research_final.json';
+  const logoUrl = '/geography-research-project/logo.png';
+  const jsonUrl = '/geography-research-project/research_final.json';
 
   export default {
     name: 'OlMap',
