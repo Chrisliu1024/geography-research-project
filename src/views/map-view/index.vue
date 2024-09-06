@@ -1,6 +1,6 @@
 <template>
   <div id="olMap">
-    <div ref="myMap" class="mapContainer" id="myMap"></div>
+    <div ref="main-map" class="mapContainer" id="main-map-id"></div>
   </div>
 </template>
 
@@ -47,7 +47,7 @@
     },
     mounted() {
       map = new Map({
-        target: 'myMap',
+        target: 'main-map-id',
         view: new View({
           center: [0, 0],
           zoom: 2,
@@ -376,10 +376,20 @@
 </script>
 
 <style>
-  #myMap {
+  #main-map {
     width: 100vw;
     height: 100vh;
     border: 2px;
+  }
+
+  .ol-zoom {
+    top: 1em;
+    left: 1em;
+  }
+
+  .ol-search {
+    top: 1em;
+    left: 3.5em;
   }
 
   .ol-popup {
@@ -391,15 +401,18 @@
 
   .style-table {
     border-collapse: collapse;
+
     /* margin: 50px auto; */
     font-size: 1em;
+
     /* max-width: 400px; */
+
     /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
   }
 
   .style-table thead tr {
     background-color: #0398dd;
-    color: #ffffff;
+    color: #fff;
     text-align: left;
   }
 
@@ -409,7 +422,7 @@
   }
 
   .style-table tbody tr {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ddd;
   }
 
   /* .style-table tbody tr:nth-of-type(even) {
