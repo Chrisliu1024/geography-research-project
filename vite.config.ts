@@ -1,7 +1,7 @@
 import { UserConfig, ConfigEnv } from 'vite';
 import { createVitePlugins } from './build/vite/plugins';
 import { resolve } from 'path';
-import { VITE_PORT } from './build/constant';
+import { VITE_PORT, APP_TITLE } from './build/constant';
 
 function pathResolve(dir: string) {
   return resolve(process.cwd(), '.', dir);
@@ -12,15 +12,15 @@ export default ({ command }: ConfigEnv): UserConfig => {
   const isBuild = command === 'build';
   let base: string;
   if (command === 'build') {
-    base = '/geography-research/';
+    base = '/' + APP_TITLE + '/';
   } else {
     base = '/';
   }
   let publicDir: string;
   if (command === 'build') {
-    publicDir = 'public/geography-research/';
+    publicDir = 'public/' + APP_TITLE + '/';
   } else {
-    publicDir = 'public';
+    publicDir = 'public/' + APP_TITLE + '/';
   }
   return {
     base,
@@ -65,7 +65,7 @@ export default ({ command }: ConfigEnv): UserConfig => {
       },
     },
     build: {
-      outDir: 'docs/',
+      outDir: 'dist/',
     },
   };
 };

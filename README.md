@@ -2,7 +2,7 @@ English | [简体中文](./README-cn.md)
 
 Location of the research project of the Department of Geography, CU Boulder
 
-![webpage sample](https://github.com/Chrisliu1024/geography-research/blob/master/docs/webpage_sample.png?raw=true)
+![webpage sample](https://github.com/Chrisliu1024/geography-research-project/blob/master/docs/webpage_sample.png?raw=true)
 
 website: [Geography Research - CU Boulder (chrisliu1024.github.io)](https://chrisliu1024.github.io/geography-research-project/)
 

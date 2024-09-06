@@ -4,7 +4,7 @@
  */
 
 // 应用名
-export const APP_TITLE = 'geography-research';
+export const APP_TITLE = 'geography-research-project';
 
 // 本地服务端口
 export const VITE_PORT = 3000;
