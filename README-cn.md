@@ -2,7 +2,7 @@
 
 科罗拉多大学波尔多分校地理系研究项目所在地
 
-![webpage sample](https://github.com/Chrisliu1024/geography-research-project/blob/master/docs/webpage_sample.png?raw=true)
+![webpage sample](https://github.com/Chrisliu1024/geography-research-project/blob/master/docs/webpage_sample.gif?raw=true)
 
 演示网址: [Geography Research - CU Boulder (chrisliu1024.github.io)](https://chrisliu1024.github.io/geography-research-project/)
 
