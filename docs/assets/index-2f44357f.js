@@ -19490,8 +19490,8 @@ var KE = class extends za {
   }
 };
 let pt, Ao, Oo, Fo, Do, ko, No, hn;
-const ZE = '/logo.png',
-  $E = '/research_final.json',
+const ZE = '/geography-research-project/logo.png',
+  $E = '/geography-research-project/research_final.json',
   qE = {
     name: 'OlMap',
     data() {
