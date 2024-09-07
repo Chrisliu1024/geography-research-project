@@ -9,19 +9,10 @@ function pathResolve(dir: string) {
 
 // https://vitejs.dev/config/
 export default ({ command }: ConfigEnv): UserConfig => {
+  // 是否是生产环境
   const isBuild = command === 'build';
-  let base: string;
-  if (command === 'build') {
-    base = '/' + APP_TITLE + '/';
-  } else {
-    base = '/';
-  }
-  let publicDir: string;
-  if (command === 'build') {
-    publicDir = 'public/' + APP_TITLE + '/';
-  } else {
-    publicDir = 'public/' + APP_TITLE + '/';
-  }
+  const base = isBuild ? `/${APP_TITLE}/` : '/';
+  const publicDir = `public/${APP_TITLE}/`;
   return {
     base,
     publicDir,
@@ -65,7 +56,7 @@ export default ({ command }: ConfigEnv): UserConfig => {
       },
     },
     build: {
-      outDir: 'dist/',
+      outDir: 'docs/',
     },
   };
 };

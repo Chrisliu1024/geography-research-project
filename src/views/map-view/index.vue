@@ -37,8 +37,9 @@
   let pointStyleToFaculty;
   let iconStyle;
   let select;
-  const logoUrl = '/logo.png';
-  const jsonUrl = '/research_final.json';
+  // logo的位置在根目录
+  const logoUrl = `${import.meta.env.BASE_URL}logo.png`;
+  const jsonUrl = `${import.meta.env.BASE_URL}research_final.json`;
 
   export default {
     name: 'OlMap',
