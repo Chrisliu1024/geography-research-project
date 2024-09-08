@@ -4,7 +4,7 @@ Location of the research project of the Department of Geography, CU Boulder
 
 ![webpage sample](https://github.com/Chrisliu1024/geography-research-project/blob/master/docs/webpage_sample.gif?raw=true)
 
-website: [Geography Research - CU Boulder (chrisliu1024.github.io)](https://chrisliu1024.github.io/geography-research-project/)
+website: <a href="https://chrisliu1024.github.io/geography-research-project/" target="_blank">Geography Research project - CU Boulder </a>
 
 # Quick start
 

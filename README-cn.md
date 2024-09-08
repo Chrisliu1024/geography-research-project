@@ -4,7 +4,7 @@
 
 ![webpage sample](https://github.com/Chrisliu1024/geography-research-project/blob/master/docs/webpage_sample.gif?raw=true)
 
-演示网址: [Geography Research - CU Boulder (chrisliu1024.github.io)](https://chrisliu1024.github.io/geography-research-project/)
+演示网址: <a href="https://chrisliu1024.github.io/geography-research-project/" target="_blank">Geography Research project - CU Boulder </a>
 
 # 快速开始
 
